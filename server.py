@@ -42,4 +42,4 @@ def result():
     ans = ca.course_allocation(agents=agent_list,course_capacity=course_capacity,course_list=course_list,course_amount_per_agent=course_amount_per_agent)
     return str(ans)
 if __name__ == '__main__':
-    app.run()
+    app.run(host="0.0.0.0",port=9785)
